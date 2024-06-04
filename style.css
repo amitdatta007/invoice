@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.invoice-page {
+    width: 100%;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice-header img {
+    width: 20vw;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.1vw;
+}
+
+.invoice-header .right-header .title {
+    font-size: 3.1vw;
+    font-weight: 600;
+    line-height: 3.4vw;
+}
+
+.para {
+    font-size: 1.4vw;
+    text-align: left;
+}
+
+.invoice-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+
+.invoice-info .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vw;
+}
+
+.invoice-info .left>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-info .barcode {
+    width: 30vw;
+}
+
+.invoice-info .right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.2vw;
+}
+
+.invoice-table {
+    margin-top: 4vw;
+}
+
+.invoice-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.invoice-table table tr {
+    border-bottom: 0.1vw solid  #DFE0E3;
+}
+
+.invoice-table table th, td{
+    padding: 0.6vw 0;
+}
+
+.invoice-table .product-title {
+    display: block;
+    max-width: 25vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.invoice-total{
+    margin-top: 1vw;
+    width: 20vw;
+    font-size: 1vw;
+}
+
+.invoice-total .total-items{
+    display: flex;
+    width: 100%;
+}
+.invoice-total .total-items > div{
+    width: 100%;
+    text-align: right;
+}
+
+.table-footer{
+    margin-top: 2vw;
+}
+.table-footer .para{
+    text-align: center;
+}
